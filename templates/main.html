@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Main{% endblock %}
+
+{% block main %}
+<button id="send">Send photo</button>
+<button id="show">Show photo</button>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+{% endblock %}

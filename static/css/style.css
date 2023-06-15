@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    margin: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border: none;
+}
+
+.main button {
+    text-align: center;
+
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    transition: all 0.1s ease;
+    color: var(--tg-theme-button-text-color);
+    background: var(--tg-theme-button-color);
+}
+
+.main button:hover {
+    background: var(--tg-theme-secondary-bg-color);
+}
+
+.file {
+    font-size: 20px;
+    width: 100%;
+}
+
+.file::file-selector-button {
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    transition: all 0.1s ease;
+    color: var(--tg-theme-button-text-color);
+    background: var(--tg-theme-button-color);
+}
+
+.file::file-selector-button:hover {
+    background: var(--tg-theme-secondary-bg-color);
+}
+
+.button {
+    text-align: center;
+
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    transition: all 0.1s ease;
+    color: var(--tg-theme-button-text-color);
+    background: var(--tg-theme-button-color);
+}
+
+.button:hover {
+    background: var(--tg-theme-secondary-bg-color);
+}
