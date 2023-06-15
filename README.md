@@ -1,2 +1,4 @@
-# twa-python-sample
-This Python package implements TWA
+# twa-python-aiogram- sample
+This Python package implements TWA using aiogram
+
+
